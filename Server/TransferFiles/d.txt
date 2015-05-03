@@ -1,0 +1,892 @@
+Changes and bugfixes in 2.6 version:
+====================================
+  1. Added support for Nokia 7260.
+  2. Added support for Nokia 3120.
+  3. Fixed serious bugs in support for Nokia 3205.
+  4. Improved support for Nokia 6810
+  5. Preliminary support for Nokia 6255.
+  6. Oxygen Connection Wizard is updated. Now it supports DKU-2 cable.
+  7. New section: MMC Card. An analogue of Gallery, but only works with files and folders on MMC Card.
+  8. Gallery section now manages only files and folders in phone memory. To manage files and folders on MMC Card please use "MMC Card" section.
+  9. Added Gallery backup and restore features. For more information see the Help file.
+  10. Gallery: Image Viewer now allows browsing images with trackball.
+  11. Calendar: Fixed bug with incorrect Meeting finish time setting for Nokia Series 40 models.
+  12. Java: There is a bug in Nokia 6255, 6230, 7270, 7260, 6170, 3220, 5140 firmware that hangs or reboots the phone after writing Series 40 Java applications with their RMS files into new phones (6255, 6230, 7270, 7260, 6170, 3220, 5140). Therefore Oxygen Phone Manager now doesn't write Series 40 RMS files to these models.
+  13. Phonebook: Fixed "List index out of bounds" error when displaying contact photo as hint.
+  14. VCard: Fixed bug with navigating on contacts when "Location filter" is enabled.
+  15. Notes: Fixed bug with reading or writing notes from main menu.
+  16. Notes: Fixed bug with deleting selected notes.
+  17. Some performance improvements.
+
+
+Changes and bugfixes in 2.5 version:
+====================================
+  1. Added support for Nokia 3220.
+  2. Preliminary support for Nokia 2600, 2650 and 7260.
+  3. Added DKU-2 cable support for Nokia 6230. We recommend DKU-2 as the fastest connection type.
+  4. Added support for Java folders in Nokia 6230 firmware 4.28.
+  5. Improved support for Nokia 5140 in phonebook and profiles.
+  6. Improved operator logo support for Nokia 3410 and similar models.
+  7. Improved support for long Java files (more than 64K - for those models which support them).
+  8. Registered version: When connecting new phone the program automatically opens "Register/Unregister phones" dialog and suggests this phone to be registered.
+  9. My phones: Phones list is now sorted by Alias.
+  10. "Check for update" function now can redirect the registered customer to his/her personal download page. Note that you should request new registration key to use this feature.
+  11. Phonebook: Added shortcuts Ctrl+Up/Down for moving phone number position Up/Down. Available only when "Show phone number position" switch is on.
+  12. Phonebook: Reading personal contact images (if supported by specific phone) when reading phonebook.
+  13. Phonebook: Added "PTT Address" field support for Nokia 5140.
+  14. Phonebook: "Reread selected contacts" function now reads personal contact images (if supported by specific phone) also.
+  15. Notes: Resize, Autosize and Align features are improved.
+  16. Notes: Added Copy and Paste features.
+  17. Notes: Individual notes color can be changed now.
+  18. Notes: Added ability to change notes location between "Phone memory" and "Disk".
+  19. Notes: Added "Find text" feature.
+  20. Notes: Added "Copy to phone" and "Move to phone" features.
+  21. Notes: Autosizing note by double-click on its header.
+  22. Notes: Added group operations - several selected notes can be sorted, aligned, autosized, copied/moved to another phone, exported etc.
+  23. Gallery: Improved support for Nokia 6230.
+  24. Gallery: Added ability to play MP3 files (using external players registered in Windows).
+  25. Calendar: Added search by event text feature.
+  26. Calendar, Events list view: Added ability to sort and filter events by Location (phone\disk\program).
+  27. Phone Explorer(tm): Phonebook tree now contains only groups, "Deleted items" and "SIM contacts" nodes.
+  28. MCC/MNC codes are updated.
+  29. Phonebook: Hiding "Number" submenu in popup menu when several contacts selected.
+  30. Phonebook: Hiding "Dial" menu item for the models having no dialling support.
+  31. Fixed bug: When restoring phone information from backup file, FM stations where restored regardless of "Restore FM stations" option.
+  32. Gallery: Fixed bug with reading files greater than 64k.
+  33. Gallery: Fixed bug with writing big files (greater than 64k) to Nokia 3200, 6220, 6810, 6820, 6650, 7200 (these models support files up to 100Kb). 
+  34. Gallery: Fixed bug with writing files to flash card.
+  35. Phonebook: Fixed bug with killing contact from phone (Shift+Del shortcut).
+  36. Phonebook: Fixed bug with recounting of illegal entries after contact has been edited.
+  37. Phonebook: Fixed bug with recounting of illegal entries after using "Correct illegal entries" option.
+  38. Phonebook: Fixed small bug with copying/moving contacts to another phone.
+  39. Logos: Fixed bug with incorrect operator logo parameters determination in Nokia 3410 and 5210.
+  40. Notes: Fixed bug with all notes deletion.
+  41. Calendar: Fixed bug with incorrect event types determination for Nokia 3100.
+  42. Calendar: Fixed small bug with event details color.
+  43. SMS Manager: Fixed bug with last symbol disappearing when shrink message option is used.
+
+Changes and bugfixes in 2.4.1 version:
+======================================
+  1. Fixed serious bug in registration key processing.
+  2. Gallery, ImageViewer window: Navigation buttons added.
+  3. Gallery, ImageViewer window: Added scaling buttons and popup menu.
+  4. Gallery: Fixed several bugs which may cause data loss in Nokia 6230 Gallery.
+  5. Phonebook: Fixed bugs in importing contacts from MS Outlook and Lotus Notes.
+
+
+Changes and bugfixes in 2.4 version:
+====================================
+  1. Nokia 6610i support.
+  2. Nokia 6650 support.
+  3. Oxygen Connection Wizard - a helpful utility to choose the connection type, check phone's presence and save the settings for Oxygen Phone Manager II.
+  4. New section - Notes. Allows to manage phone notes available in the latest Nokia models (6220, 6230, 68xx, 7200).
+  5. Gallery support for Nokia 6230. Due to firmware bugs there can be problems with reading the gallery via infrared. We recommend to use Bluetooth when working with 6230 gallery.
+  6. Shutdown logo support for Nokia 6230.
+  7. Gallery now supports AMR and 3GP files (Nokia Multimedia Player is required to play files of these types).
+  8. Gallery now supports copying/pasting files to/from clipboard.
+  9. Gallery section is improved for Nokia 3200, 7200.
+  10. Gallery: Added "Copy Image only" popup menu item.
+  11. Gallery: Added "Copy to folder..." and "Move to folder..." popup menu items allowing to copy/move files to any Gallery folder of any phone.
+  12. Gallery: Added animated GIF's viewer (opened by double-click).
+  13. Gallery: Removed 64kb limitation when loading files to phone (for 6230 and other Nokia models supporting big files).
+  14. Calendar: Added export to HTML, CSV, RTF, Excel, XML, Text files.
+  15. Phone Explorer(tm): Phones list now sorted by Alias.
+  16. Auto-sizing of status bars to fit their contents.
+  17. FM Manager: limiting station name to 12 symbols to prevent some phone models from hanging while writing FM stations to phone.
+  18. Fixed bug in reading WAP settings from Nokia 3200 and some other models.
+  19. Fixed bug in reading SMS lists from Nokia 6360 and similar models.
+  20. Fixed bug in phonebook voice tag support for Nokia 3520, 5140, 6200, 6220, 6650, 6651.
+  21. Fixed bugs in phonebook support for Nokia 5140 - working phone memory and caller groups.
+  22. Fixed bug in call time processing for Nokia 6230.
+  23. Fixed bug in processing speed parameter in WAP settings for Nokia 6310i.
+  24. SMS Manager: Fixed bug with deleting folders marked as "on disk".
+
+
+Changes and bugfixes in 2.3.1 version:
+======================================
+  1. Nokia 2270, 2275, 2280, 2285, 3105, 3108, 3395, 3520, 3587i, 6340, 6500 are supported now.
+  2. Nokia 1220, 1260, 1261, 2300, 5140, 6610i, 6650, 6651, 6810 preliminary support.
+  3. Personal contact photos support for Nokia 6610i.
+  4. SMS manager (read-only capabilities) is available for all non-GSM models. Some phones may not support this feature, though.
+  5. LogoEditor: Saving 16-bit pictures to the Gallery.
+  6. LogoEditor: Writing 16-bit pictures to phone.
+  7. LogoEditor: When loading picture to phone, if the picture with the same name already exists, program deletes old picture before writing the new one.
+  8. When reading all data from phone or writing/restoring all data to phone pressing Esc stops the entire process.
+  9. Phonebook: Sorting contacts algorithm is corrected. Now contacts are sorted in compliance with current system locale.
+  10. "Dial phone number" menu item is disabled for the models that do not support dialing functions.
+  11. Forensic version: "Dial phone number" function prohibited.
+  12. Small interface changes in "Call events" window.
+  13. Calendar: Added support for long texts (255 characters) in Note field for the appropriate Nokia models.
+  14. Gallery: The default extension is automatically added when saving file having no extension to phone.
+  15. Small fixes in IrDA communication level.
+  16. Dial phone number window: Added ability to dial "*" and "+" symbols using numeric keypad.
+  17. LogoEditor bug fixed: It was impossible to set the same picture as more than one logo type.
+  18. Profiles: Fixed bug with profile information update when browsing profiles in Phone Explorer(tm).
+  19. LogoEditor: Fixed bug with displaying Unicode characters in "Copy to Gallery" dropdown menu.
+  20. Fixed bug in Forensic version: It was allowed to edit To-Do notes by double-click.
+  21. Calendar: Fixed AV bug when deleting complex (splitted into several parts) events.
+  22. Bug fixed: Program hangs when starting if SMSCenter.dat file has zero size.
+  23. WAP Bookmarks: Fixed bug with editing URL field.
+  24. WAP Settings: Fixed bug with copying selected WAP settings to another phone.
+  25. A lot of small interface improvements and bugfixes.
+
+
+Changes and bugfixes in 2.3 version:
+====================================
+  1. Nokia 7200 support.
+  2. Nokia 7600 support.
+  3. Nokia 6820 support.
+  4. Nokia 6225 support.
+  5. Nokia 6585 support.
+  6. Nokia 3320 support.
+  7. Nokia 3360 support.
+  8. Nokia 3586i, 3588i and 3589i support.
+  9. Preliminary support for Nokia 6230.
+  10. Bluetooth connection support for Nokia 6820, Nokia 7600 and Nokia 6230.
+  11. SMS Manager: Reading messages from TDMA and CDMA models.
+  12. Registration key file format changed to conform to Oxygen Phone Manager II for Symbian phones. Please obtain new registration code at the registered customers page.
+  13. "On-line support forum" link added to the Help menu.
+  14. VCard: Added confirmation dialog when trying to close VCard window with changed contact data.
+  15. VCard: Automatically saving currently edited phone number when pressing Apply or Ok button.
+  16. Phonebook: Browsing speed significantly increased for large phonebooks.
+  17. Profiles: Added new parameters - Chat Alert and Chat Tone (for Nokia 7200).
+  18. Profiles: Added "Reset to default" button for resetting Profiles to factory default settings.
+  19. Profiles: Some interface changes.
+  20. WAP Settings: Added new section - Proxy (for the models like 7200, 7600).
+  21. WAP Settings: Added new parameter - Terminal Window (for Nokia 7200).
+  22. Remove phone procedure is corrected.
+  23. VCard: Fixed bug with changing Caller Group from VCard window.
+  24. Improved compatibility with large system fonts.
+  25. Gallery: Fixed folder codes determination.  
+  26. Phonebook: Fixed bug with speed dials handling.
+  27. Phonebook: Fixed bug with navigation when some Caller Group is selected in Phone Explorer(tm).
+  28. Profiles: Fixed bug with setting active profile in the models with color screen.
+  29. Profiles: Bug fixed: Updating current profile information after reading profiles from phone.
+  30. Profiles: Fixed bug with incorrect settings in Copy Profile window.
+  31. Small improvements and bugfixes. 
+
+Changes and bugfixes in 2.2.2 version:
+======================================
+  1. Preliminary support for Nokia 6820.
+  2. Preliminary support for Nokia 6225.
+  3. Preliminary support for Nokia 3320.
+  4. Preliminary support for Nokia 3360.
+  5. License expiration date is now displayed in main window's caption.
+  6. Fixed major bugs in handling 6220, 6320 and 3200 phonebook.
+  7. Fixed bug with saving files with incorrect names (containing \/:*?"<>| characters) to disk.
+  8. Phonebook: Fixed rare bug with switching to another Phone Explorer(tm) section when Phonebook popup menu is active.
+  9. Some stability improvements.
+
+Changes and bugfixes in 2.2.1 version:
+======================================
+  1. Nokia 6220 support.
+  2. Nokia 6320 support.
+  3. Nokia 3300 support.
+  4. Nokia 6560 support.
+  5. Nokia 3200 american version support.
+  6. Forensic version of Oxygen Phone Manager II is available. This version is specially designed for Police Departments, Law Enforcement units and all government services that wish to use Oxygen Phone Manager II for investigation purposes.
+  7. Registration key file format changed to conform to Oxygen Phone Manager II for Symbian phones. Please obtain new registration code at the registered customers page.
+  8. Phonebook: Added UserID field support (now belongs to Nokia 6220 only).
+  9. Phone Information: Hiding SIM or Phone memory load indicator for the models that do not have SIM or Phone memory respectively.
+  10. Phone explorer(tm): Hiding "SIM contacts" node for the models that do not have SIM card (e.g. CDMA models).
+  11. Phone explorer(tm): Showing "Training" section in "Calendar" for Nokia 5210.
+  12. Phonebook: Disabling "SIM contacts" item in Location filter for the models that do not have SIM card (e.g. CDMA models).
+  13. Phonebook: Fixed bug with reading contacts from *.PB2 files generated by old versions of Oxygen Phone Manager II for Nokia phones.
+  14. Phonebook: Popup menu is redesigned for more comfortable navigation.
+  15. New Phonebook option: "Automatically delete from interface all phone numbers absent in phone when reading contacts". This option is OFF by default.
+  16. New Phonebook option: "Enable drag'n'drop of contacts and phone numbers". This option is ON by default.
+  17. Options: Phonebook, Outlook mapping: "Other phone" field is supported now.
+  18. Phonebook: Export of contacts without groups to MS Outlook fixed.
+  19. Phonebook: Fixed dupes creation during export, that was caused by rare combination of mapping parameters.
+  20. Fixed wrong behaviour in ToDo section for Nokia 8310 and similar, if task index was grater than 255.
+  21. Fixed small bug: "Quick Jump" menu items "WAP Settings" and "WAP Bookmarks" were available even for the models not having WAP.
+  22. New Calendar option: "Event Details background color". Allows to change event details panel color in Planner.
+
+Changes and bugfixes in 2.2 version:
+====================================
+  1. Nokia 3200 support.
+  2. Nokia 2100 support.
+  3. Nokia 6108 support.
+  4. Nokia 1100 and Nokia 6560 preliminary support.
+  5. Improved procedure of operator logo removal for Nokia 7210 and other models of DCT5 line.
+  6. Improved connecting process and connection checking procedure.
+  7. Improved compatibility of the program with Windows 98 and Windows ME operating systems.
+  8. Only available ports are displayed in choosing COM port for connection.
+  9. Options window: For each COM port a description is displayed.
+  10. Options window: If COM port is chosen for connection the description of which includes the word "Bluetooth", then the connection type is automatically displayed as "Bluetooth serial port".
+  11. Phonebook: The new item "Add/Remove prefix" is added to the popup menu, which allows adding or removing the pointed out prefix in chosen numbers. If the phone number field is empty after removing the prefix, the number is to be deleted. If the number being modified starts with '+' or already has the prefix at the beginning, any changes are not efficient here.
+  12. Phonebook: the item "Restore" in the popup menu is renamed to "Undelete selected contacts". A shortcut for it is organised, that is Ctrl+U.
+  13. The number of OPM-supported COM ports increased to 255.
+  14. MIDI loading to the list of user's ringtones for Nokia 3100 and 3200 is banned. Use Gallery for these models.
+  15. To-Do: Fixed bug with reading long tasks when the cable for DCT5 line phones is used.
+  16. Phonebook: The phone numbers navigation is improved for phonebooks having one contact.
+  17. Phonebook: Improved addition of phonebook fields for DCT5 line phones (before that only 4 fields were possible instead of 5).
+  18. Slight improvements in the interface and the frequently used key optimization.
+
+Changes and bugfixes in 2.1.9:
+=============================
+  1. Nokia 3100 support.
+  2. Calendar: Planner view now includes small "Tasks" manager - an analogue of "To-Do List" section.
+  3. New Gallery option: "Immediate reading and writing data if possible". Allows all Gallery operations to be performed on-the-fly. 
+  4. Gallery section now accepts drag-and-drop files from Windows Explorer.
+  5. Registration key file format changed to conform to Oxygen Phone Manager II for Symbian phones. Please obtain new registration code at the registered customers page.
+  6. Phonebook: Pressing Shift+Del kills selected contacts (just as Alt+Del).
+  7. Fixed bug with Nokia 5100 capabilities determination (unavailable "Phone memory" as storage, customer Ringtones number etc).
+  8. ToDo: Fixed bug with Tasks import from Microsoft Outlook.
+  9. Phonebook: Fixed bug with ignoring "Ins", "Del" and some other shortcuts.
+  10. Phonebook: Fixed bug with reading from disk when phonebook has only one contact.
+  11. Fixed bug with disabling several main menu items after "Write all data to phone" operation.
+  12. Calendar: Fixed bug with writing events having no alarm.
+  13. Other small bugfixes and improvements.
+
+Changes and bugfixes in 2.1.8:
+=============================
+  1. Now all registered users having their licence expired are eligible to register new phones instead of old ones for working with latest obtained version of Oxygen Phone Manager II via Oxygen Registration Robot without paying any fee. In other words, licence expiration no more affects procedure of moving from one phone to another while new program versions won't be available as before. Please note that registration/unregistration of the phones for such users are avaialable only through Oxygen Registration Robot. All e-mails to our support service with requests to add, change or delete a phone registration will be deleted without processing.
+  2. Profiles section interface changed for faster loading.
+  3. Now "Restore" menu item is available even if phone disconnected (many customers asked how to read data from OBK file without a phone).
+  4. Calendar: "Current event details" panel added to Planner view (press "i" button on toolbar to enable it).
+  5. Improved Calendar handling for Nokia 3586, 3595 and 3560.
+  6. Phonebook import: Now "Create new contact for each phone number" option is taking into account even if the phone supports multiple phone numbers per contact. It can be useful for example for saving Phonebook to SIM card.
+  7. Phonebook: Added optional fixed column containing numbers of phonebook entries. Can be switched off with "Show entry number column" checkbox in the Options window.
+  8. Phonebook: Clicking on a entry number column header selects/deselects all visible contacts.
+  9. Phonebook: double-click on empty image brings up the "Open picture" dialog (for Nokia 7250i).
+  10. When opening Options window, the current active Phone explorer(tm) section's settings are automatically displayed.
+  11. Added support for the several graphic formats. Now the program can load  BMP, RLE, DIB, GIF, JPEG, JPG, JPE, WMF, EMF, NOL, NGG, OTA, NSL, NLM, ICO, WIN, VST, VDA, TGA, ICB, TIFF, TIF, FAX, EPS, PCX, PCC, SCR, PNG, RLA, RPF, SGI, RGB, RGBA, BW, PSD, PDD, PPM, PGM, PBM, CEL, PIC, PCD, PCD, CUT, PSP files.
+  12. VCard: Pressing "Enter" on phone's list causes either adding new entry (if the list is empty) or editing the current entry.
+  13. VCard: Header labels are "active" now. Clicking them brings up context popup menu.
+  14. MMS Manager: Add *.MMS files dialog now allows multiple files selection.
+  15. Call register: "Add to phonebook" item added to popup menu.
+  16. Phonebook: Hiding "Duplicate numbers" window when opening VCard window to prevent errors.
+  17. VCard: When editing phone numbers pressing "Esc" closed VCard window. Now it simply cancels editing operation.
+  18. Restore wizard: "Start restore" page in some cases didn't fit all the selected sections. Fixed.
+  19. Restore wizard: Fixed bug with restoring after using Backup wizard - Error reading OBK file.
+  20. To-Do List: "Copy to phone" and "Move to phone" menus included the phones don't having To-Do List feature. Fixed.
+  21. Resend registration key window : Fixed bug with creating e-mail message even when "Cancel" button was pressed.
+  22. Phonebook: Fixed bug with incorrect contact picture for Nokia 7250i, if the picture was loaded using "Paste from clipboard" command.
+  23. Phonebook: Fixed bug with "Clear all items" feature when columns order was changed.
+  24. Phonebook: Fixed bugs with Find and Replace.
+  25. SMS Manager: Writing messages with "Description" field is improved.
+  26. Ringtones: Fixed bug with saving ringtones list.
+  27. Fixed bug in handling caller groups for Nokia 5100.
+
+Changes and bugfixes in 2.1.7:
+=============================
+  1. Phonebook: Full support for controlling contacts' personal images added for Nokia 7250i.
+  2. Phonebook: "Photo" submenu in popup menu. Contains the following items: Load from file, Save to file, Copy, Paste, Stretch to 128x128, Clear.
+  3. Ringtones Manager significantly improved: Backup/restore functions implemented; List of user ringtones currently saved in the phone is shown; User ringtones can be added, deleted or copied to another phone (if the phones are compatible).
+  4. Phonebook: Now it's possible to change phonebook columns order.
+  5. New menu item under "Help" menu - "Request for resend the registration key". Requests OPM2 Robot to resend your registration key.
+  6. Registration key file format changed. If you haven't received the new registration key for any reason, please use "Request for resend the registration key" function.
+  7. Disabling Phone Explorer(tm) while phone is being connected to prevent errors.
+  8. Calendar: Setting the font from program options.
+  9. Calendar: Fixed bug with setting "Memo" type instead of "Reminder" for Nokia 5210.
+  10. Calendar: Meeting end time was not displayed for some phone models that support this field.
+  11. Calendar: Fixed small bug with drag&drop: moving events instead of copying.
+  12. Gallery: Fixed general bug with american Nokia models - 3560, 3586, 3595.
+  13. Fixed general bug with Gallery and Java reading.
+  14. Gallery: Setting the font from program options.
+  15. Gallery: "Add file" button added to the main Gallery window.
+  16. Gallery: "Read optimization" option added to the Options window. Enables/disables skipping previously read files during consecutive readings.
+  17. Java: Setting the font from program options.
+  18. Java: "Read optimization" option added to the Options window. Enables/disables skipping previously read files during consecutive readings.
+  19. MMS Manager: Setting the font from program options.
+  20. MMS Manager: "Read optimization" option added to the Options window. Enables/disables skipping previously read files during consecutive readings.
+  21. SMS Manager: Fixed bug with disabling Main window after creating SMS from contacts list.
+  22. SMS Manager: Fixed small bug with drag&drop: moving messages instead of copying.
+  23. SMS Manager: Reading concatenated unicode messages sent from Siemens mobile phones fixed.
+  24. Java and Gallery: Now the list can be sorted by any column.
+  
+
+Changes and bugfixes in 2.1.6:
+=============================
+  1. Nokia 7250i support added.
+  2. Phone Explorer(tm): New Phonebook section - "SIM Contacts". Shows only contacts located on SIM card.
+  3. MMS Manager: added copy/move MMS message dialog allowing to copy/move message to any folder of any MMS-enabled phone.
+  4. Options window: "Calendar" section added.
+  5. Calendar: added Meeting end time field support.
+  6. Calendar: three options to sort Birthdays: sort using full date, sort regardless the year and advanced mode sort (see "Calendar" page in the Options window for details).
+  7. Calendar: when changing event date/time in event editor, alarm time also changes automatically.
+  8. Calendar planner functionality enhanced: now events reflect the moving and resizing planner items.
+  9. Calendar: now events can be sorted by type.
+  10. Calendar: highlighting events with the same date as selected.
+  11. Gallery reading optimization: previously read files are skipped during consecutive readings.
+  12. Java reading optimization: previously read files are skipped during consecutive readings.
+  13. MMS reading optimization: previously read files are skipped during consecutive readings.
+  14. MMS Manager: "Copy to folder" and "Move to folder" items in popup menu.
+  15. Phonebook: speed and file size optimization when loading/saving phonebook data.
+  16. Options: "Send e-mails directly" option removed. Now default MAPI client is always used to send Register/Unregister phones and FM Favourites messages.
+  17. Some speed optimization in "Phone Information" window.
+  18. Calendar: warning when trying to set an alarm time greater than event start time.
+  19. Fixed small bug with displaying "SIM" icon for contact WWW field in Phone Explorer(tm).
+  20. Calendar bug fixed: chance changing of Alarm time for several event types when loading Calendar data.
+
+Changes and bugfixes in 2.1.5:
+=============================
+  1. Nokia 6200 support added.
+  2. "MMS Manager" section added. Current version supports reading, displaying, creating new MMS messages and their items and saving contents of MMS message to file(s). 
+  3. "MMS Settings" section added. Allows you to control your phone's MMS Settings.
+  4. Preliminary support for the following models is added: Nokia 3560, 3570, 3585, 3585i, 3586, 3595. Features are supported depending on the phone's capabilities.
+  5. American version of Nokia 6800 support added.
+  6. Ad hoc dialling window added (F4 hotkey or "Phone\Dial..." menu item).
+  7. Animated and Static screensavers support for Nokia 3510 added (see "Phone\Load file to phone" menu).
+  8. Phonebook: "Clear voice tags" item added to popup menu. 
+  9. Phonebook: Automatic clearing voice tags after loading phonebook from file and copying contacts from another phone.
+  10. Phonebook: context menu (Undo, Copy, Cut, Paste etc) is available when editing data directly in Phonebook window.
+  11. MMS Message editor supports the following content types: plain text, html, jpeg, gif, animated gif, png, tiff, bmp, midi, wav, rt.
+  12. SMS Manager: Folder names now displayed as they appear in phone.
+  13. GPRS Settings: Now "Name" field can be cleared by pressing "Del" key.
+  14. Battery and signal levels representation for Nokia 8910i corrected.
+  15. Phonebook: Popup menu items "Copy" and "Paste" are renamed to "Copy contact" and "Paste contact".
+  16. Phonebook: Ctrl+C/V key now copies/pastes current cell only. To copy/paste whole contact use Shift+Ctrl+C/V.
+  17. MMS Manager: every message can be opened in a separate window.
+  18. MMS Manager: storing individual messages to disk in MMS format.
+  19. MMS Manager: saving to and loading from disk list of messages.
+  20. MMS Message Editor: ability to insert images from Gallery.
+  21. Backup and restore MMS messages and settings.
+  22. Calendar: Hints for Calendar buttons added.
+  23. Calendar bug fixed: Events moved in Planner to another time were not saved properly. 
+  24. Calendar bug fixed: When editing "Call" event only General and Mobile phone numbers were accessible.
+  25. Calendar: fixed bug with export to MS Outlook.
+  26. FM Manager bug fixed:  FM Stations were not read in "Read all phone data".
+  27. Ringtones: Fixed bug that allowed to write empty ringing tone to phone.
+  28. "Voice recorder" menu item added to "Quick Jump" menu in Phone Explorer(tm).
+  29. LogoEditor: checking that MCC is not empty when resetting startup logo.
+  30. Fixed scaling bug in Splash and Main windows with Large fonts.
+  31. Phonebook: Fixed finding text bug - contact names were ignored in search process.
+  32. Main program menu is not accessible now during read or write operations.
+  33. High memory load warning is removed. 
+
+
+Changes and bugfixes in 2.1.4:
+==============================
+  1. Nokia 6385 support added.
+  2. DKU-5 cable (Pop-Port) support added.
+  3. "Voice Recorder" section added. Allows you to read, write, backup, restore and listen your Voice Records (Dictaphone). Also allows to add custom WAV files.
+  4. Bluetooth connection support for Nokia 8910i.
+  5. Phonebook: Now contacts can be filtered by location. See "Filter" button at statusbar or "Location filter" menu item in popup menu.
+  6. Backup window: added scrollbars to "Ready to backup" and "Performing backup" pages.
+  7. Phonebook: New contacts are located in phonebook memory (or SIM card if the phone has no own contacts memory) by default.
+  8. Calendar writing for Nokia 6310 and Nokia 6510 improved.
+  9. Phonebook: New shortcut - Alt+F3 for "Find Next".
+  10. Some changes in icons design (big thanks to Ant).
+  11. Bugs with writing data via Bluetooth fixed.
+  12. Phonebook: Fixed small bugs in Find/Replace.
+  13. Fixed bugs in profiles: setting melody from the Gallery as call or SMS ringtone and reading call ringtone.
+  14. Fixed bug when phonebook entry with too many fields is not written.
+  15. Phonebook bug fixed: After setting/removing speed dial, the contact wasn't marked as changed.
+  16. Periodical checking for memory load. If more than 90% warning message appears.
+  17. VCard: Fixed bug with editing WWW fields.
+  18. Language-management library is updated. Now *.lng files are packed to save disk space.
+  19. FM Manager: E-mail address for sending favourite FM stations lists is changed.
+  20. Gallery Manager: Fixed bug with impossibility to set filled GIF file as Operator logo.
+  21. Profiles: Fixed bug with writing profile names to Nokia 7210 family.
+  22. Call events window: Fixed "Stack overflow" bug with call info processing.
+  23. Small improvements in "Remove phone" procedure.
+  24. Windows Server 2003 operating systems family support added.
+  25. Calendar: Fixed error with Nokia 6100 event editing.
+  26. Java: Fixed navigation error in Phone Explorer.
+  27. Other improvements and bugfixes.
+
+
+Changes and bugfixes in 2.1.3:
+==============================
+  1. Bluetooth support for 6310i firmware version 5.50 is added.
+  2. "Connection" part in Options window completely redesigned. Now shows only selected connections, supports up to 32 COM ports and has new conenction type - "Bluetooth serial port".
+  3. WAP Settings: support for 10 WAP settings for Nokia 6100.
+  4. Fixed bug with writing ToDo notes to Nokia 7210 and similar phones with newer firmware versions.
+  5. Fixed bug with reading Java apps and games downloaded via WAP.
+  6. Fixed bug with saving Java apps downloaded via WAP to disk.
+  7. Fixed bug in vCard window: "Changed" flag was not set after deleting phone numbers.
+  8. Phonebook: Fixed bug when trying to access clipboard containing incorrect data.
+  9. Fixed bug in vCard window: Personal ringtones list was empty for Nokia 3510i.
+  10. LogoEditor: Fixed error appearing when selection area is empty.
+  11. Detecting default installation language bug is fixed. Now the "Select Language" dialog is always shown.
+  12. Many updates in faq.txt file.
+
+
+Changes and bugfixes in 2.1.2:
+==============================
+  1. Added support for Nokia 8910i.
+  2. Double-click on Phonebook contact calls separate contact edit window.
+  3. Incorrect cutting of Chinese SMS fixed.
+  4. Chance bug with reading Java folders is probably fixed.
+  5. Small interface changes in Backup window, Summary page.
+  6. Windows 95 is no longer officially supported.
+  7. Fixed Windows taskbar disappearance under Windows 98 and ME.
+  8. Fixed bug with incorrect showing of a birthday with empty birth year.
+  9. Fixed bug with not writing calendar events to Nokia 83**, 65**, 6310, 8910.
+  10. Fixed bug with opening corrupt JPEG files.
+  11. Fixed bug with possibly incorrect selection of active GPRS setting.
+  12. Fixed bug with opening of startup logo in the Logo Editor.
+  13. Fixed bug with Calendar in 6610. Birthdays are displayed correctly now.
+  14. Fixed bug with adding Reminder and Notes to Nokia 6610.
+
+
+Changes and bugfixes in 2.1.1:
+==============================
+  1. Added support for Nokia 5100, 6340i, 6800, 7250.
+  2. Added partial support for Nokia 8910i (calendar and gallery are not supported yet).
+  3. New section - "Java" - allows you to manage Java applications and games: read from phone, write to phone, save on disk.
+  4. Backup and Restore Java applications and games.
+  5. Logo Editor: "Copy to Gallery" feature. Allows to put current picture directly to the Gallery.
+  6. Logo Editor: "Filters" feature allows you to adjust Contrast, Lightness, Saturation and Color Balance.
+  7. Logo Editor: "Zoom" feature (Normal/Large size). Grid can be switched on/off in "Large" mode.
+  8. Restore: Individual call types (Incoming, Outgoing, Missing) can be selected for restoring.
+  9. SMS Manager: Pictures can be copied to Gallery directly from SMS Manager.
+  10. Gallery Manager: Added Picture viewer window (can be called from popup menu or by double-clicking picture).
+  11. Gallery Manager: New option - "Allow smooth scaling for preview images".
+  12. Logo Editor: Ability to select picture format and compression level when writing to phone.
+  13. Ringtones: Small interface improvements.
+  14. Register/Unregister Phones dialog: Phones that allowed by registration key, but missed on disk are NOT automatically marked for removing now.
+  15. Administrators now can disable "Register/Unregister Phones" menu item at the clients' computers. This feature might be useful for Company and Corporate license owners to avoid accidental phones removing from the license. Please contact us at support@opm-2.com to learn how to control this feature.
+  16. Phonebook: "Read/Write all phonebook data" now reads/writes Caller group data too.
+  17. If there are no active connections specified, program suggests to open "Options" window and select at least one.
+  18. If the specified COM port is occupied by another program or does not exist, "Connection status" window is automatically displayed.
+  19. Profiles: small low-level improvements.
+  20. Loading incorrect graphic files now doesn't raise an exception.
+  21. Checking file size when loading MIDI ringtone.
+  22. Fixed several "untranslated" strings in language files.
+  23. Fixed bug with writing to the Gallery.
+  24. SMS Manager: Fixed bug with ignoring "Mark message read after displaying for" option.
+  25. Logo Editor: Improved drawing (using pencil and brush tools).
+  26. Fixed bug with Nokia 3390 detection.
+  27. Fixed call register reading for phones not having phone memory for phonebook.
+  28. Fixed bug with reading MCC and MNC values for Nokia 7210, 6100, 6610;
+  29. Logo Editor: Fixed bug with picture stratching in open picture dialog window.
+  30. Logo Editor: Other minor bugfixes and improvements.
+
+
+Changes and bugfixes in 2.1:
+============================
+  1. Full support for Nokia 3510i and 3530.
+  2. FBUS cable support for Nokia 7210, 6610, 6100.
+  3. Gallery support for Nokia 7210, 6610, 6100, 3510i, 3530. Preview pictures and listen the melodies. Supported formats: Windows bitmaps (.bmp), wireless bitmaps (.wbmp), JPEG files (.jpg, .jpeg), GIF files (.gif), PNG files (.png). 
+  4. Loading Java applications and games to Nokia 7210, 6610, 6100, 3510i, 3530.
+  5. Reading MCC and MNC from Nokia 7210, 6610, 6100, 3510i, 3530.
+  6. Operator logo, startup logo and wallpaper can be set and reset for Nokia 7210, 6610, 6100, 3510i, 3530.
+  7. Loading pictures is removed from "Phone" menu. Now this functionality is available in Gallery Manager.
+  8. LogoEditor now can be used for Color wallpapers and logos drawing, setting and resetting.
+  9. Gallery melodies now can be selected for Profiles and Phonebook groups.
+  10. Small interface changes in About window.
+  11. Fixed bug with saving program setting under Win9x - they were saved right under HKCU section.
+  12. Small bugfixes in "Remove phone" procedure.
+  13. Other minor bugfixes and improvements.
+
+Changes and bugfixes in 2.0.9.8:
+===============================
+  1. Improved Nokia 6100 support.
+  2. Phonebook: "Find and Replace" feature in popup menu. Also available with Ctrl+R.
+  3. LogoEditor: New drawing tool - Brush (available sizes: small, medium and big).
+  4. LogoEditor: Ctrl + (+)/(-) increases/decreases the cell size in current editor.
+  5. Small impovements in 63** models support.
+  6. Fixed AV bug when reading/writing all phone data from/to 3510.
+  7. Killing phones by the cracked version (with keygen) issue is probably fixed. Although Oxygen Software will not take the responsibility if it will appear again.
+  8. Fixed small bug in Profiles: when changing default profile Ringtone, "Write" button was not enabled.
+  9. LogoEditor: Fixed bug with "Rotate 90 CCW" button.
+  10. LogoEditor: Fixed bug with rotating images with Height = Width.
+  11. Fixed possible bug in key reading procedure.
+  12. Fixed AV bug when purging phonebook.
+  12. Fixed bug with empty columns delimiter when importing Phonebook from CSV file.
+  14. Fixed bug with empty columns delimiter when importing To-Do list from CSV file.
+  15. Fixed AV bug during backup/restore of 3510.
+  16. ToDo List: Fixed bug with export tasks for the models elder than 7210.
+
+Changes and bugfixes in 2.0.9.7:
+===============================
+  1. Nokia 6100 support.
+  2. New window: GPRS Access Points.
+  3. SMS Manager: Fixed bug with truncation of Unicode SMS when sending.
+  4. Calendar: Fixed bug with reading from/writing to 8210.
+  5. Calendar: Fixed bug with writing to 6310 and 6510.
+  6. Calendar reading bug fixed: Maximum 100 events for 6210 or 50 events for other models limitation removed.
+  7. Calendar: Fixed alarm time writing for Birtday events.
+  8. Phonebook: fixed bug when searching for incorrect phone numbers (after clicking on "Incrorrect" link in status bar).
+  9. Phone Information: "Cannot focus disable or invisible window" error should be fixed.
+  10. Ringtones: Fixed bug with opening ringtones under Windows XP.
+
+Changes and bugfixes in 2.0.9.6:
+===============================
+  1. Preliminary support for Nokia 3510i (except Logos).
+  2. Fixed bug with reading registration key under Windows 9x.
+  3. Fixed AV bug when reading/writing all phone data.
+  4. Options: Fixed EStringListError when reading incorrect MCC/MNC list.
+  5. Calendar: fixed Restore bug (sometimes Calendar was not restored).
+  6. Calendar: small fixes in Planner section. Should remove EListError and AV bugs.
+  7. Phonebook: Fixed AV bug when selecting "Schedule call reminder" from popup menu.
+  8. Fixed reading battery level from 6610.
+  9. Fixed some bugs when working via cable connection.
+
+Changes and bugfixes in 2.0.9.4:
+===============================
+  1. Phonebook: Fixed bug with incorrect group mapping when importing from Lotus Notes.
+  2. Fixed bug with password protection of TDMA phones (6360, 7160 etc).
+  3. Russian code table support fro Nokia 8210.
+
+Changes and bugfixes in 2.0.9.3:
+===============================
+  1. Calendar: added export to MS Outlook (any folder).
+  2. Calendar: ability to select several days in Planner "Day view" mode.
+  3. Call Register: Sorting calls by time added.
+  4. Call Register: Fixed bug with contact call times sorting.
+  5. Calendar: Fixed bug with doubleclick on Planner header.
+  6. Restore: Fixed AV bug when restoring Calendar.
+  7. Calendar: Caught (but NOT fixed yet) bug with incorrect reading from/writing to 8210 and 8290 models.
+
+
+Changes and bugfixes in 2.0.9.2:
+===============================
+  1. Nokia 6610 now detects properly.
+  2. Phonebook: "Schedule call reminder" item in popup menu.
+  3. Possibility to lock access to your phones using password. See "Phone\Phone access" menu.
+  4. Calendar: import from any Outlook folder.
+  5. Calendar: Backup and Restore.
+  6. Calendar: "Select from phonebook" button in "Call event" window.
+  7. Calendar: Days with events are highlighted with bold now.
+  8. "Check for updates automatically" is now OFF by default, because of the hang on some Windows 9x machines.
+  9. Fixed bug with writing personal ringtone to 3510.
+  10. Fixed bug with detecting parameters for loading file to 3510.
+  11. Call Register: fixed bug with adding new call record.
+  12. Call Register: fixed "Invalid floating point operation" bug.
+  13. Calendar: reading calendar from 6210 impovements (when having more than 100 events).
+  14. Calendar: Fixed bug with incorrect days and months names.
+  15. Fixed bug with saving/loading Lotus Notes mapping options.
+  16. Fixed bug in setting phone alarm.
+  17. Phonebook bug fixed: "Copy to" and "Move to" items in popup menu were disabled when 2 phones were attached.
+  18. Small improvements in "Remove phone" procedure.
+
+Changes and bugfixes in 2.0.9:
+==============================
+  1. Calendar support (beta version, see DISCLAIMER.TXT file for the details).
+  2. Call Register: Backup, Restore and Export to MS Excel, CSV.
+  3. Several small bugs fixed.
+
+
+Changes and bugfixes in 2.0.8:
+==============================
+  1. Nokia 6610 support.
+  2. Nokia 3590 and 6590 support.
+  3. Improved Nokia 7210 support.
+  4. Call lists support: last dialled, last missed, last accepted numbers (call lists for Nokia 3***, 5***, 61**, 82**, 88** models are read-only)
+  5. To-Do notes extended fields support for 7210 and 6610: Deadline, Alarm time and type, Done flag.
+  6. MIDI ringtones direct upload to 3510, 3590, 7210, 6610 implemented (allows you to use these ringtones in caller group parameters).
+  7. Advanced "File upload" dialogs for 3510, 3590, 7210 and 6610.
+  8. Displaying and setting phone alarm time and activity (in Phone Information window).
+  9. LogoEditor now can edit and upload color logos to 7210 and 6610.
+  10. Java files uploading bug fixed.
+  11. Protection algorithm improved.
+  12. Checking file size before loading to phone (must be less than 64k).
+  13. Some stability improvements.
+
+
+Changes and bugfixes in 2.0.7:
+==============================
+  1. Loading MIDI files, Pictures and Java MIDlets to 6310i(Java MIDlets only) and 7210. Currently this feature is working via IR connection only. See "Phone\Load file to phone" menu.
+  2. Phonebook: "Dial number" item in popup menu.
+  3. Call Events window: "Send SMS" item in popup menu.
+  4. SMS Manager: Fixed serious bug that might lead to switching the phone off.
+  5. SMS Manager: Fixed writing outgoing concatenated messages.
+  6. Fixed floating AV bug in Restore Phone Data.
+  7. Fixed bug with opening WMF and EMF pictures in LogoEditor.
+  8. Phonebook: fixed floating bug when cancelling edit operation with Esc.
+  9. Some other bugs fixed.
+
+
+2.0.6.1 Bugfix:
+===============
+  1. Fixed bug with sending SMS in SMS Manager.
+
+Changes and bugfixes in 2.0.6:
+==============================
+  1. Support for Nokia 3510.
+  2. Personal ringtones support for Nokia 3510 (see Phonebook -> Popup menu -> Ringing tone).
+  3. Partial support for Nokia 6340, 6360, 6370, 6590 (except SMS Manager and Logos).
+  4. WAP Bookmarks support (including Backup and Restore).
+  5. WAP Settings support (including Backup and Restore).
+  6. Displaying and optional syncronizing phone's date/time with computer's one.
+  7. Call events panel at the bottom of Phone Explorer(tm). Shows incoming and outgoing call events. Allows to dial numbers (using popup menu on incoming/outgoing phone numbers).
+  8. Displaying phone modifier (e.g. "i" for 6310i) in Phone Explorer(tm) and Phone Information window.
+  9. Phonebook: Saving current sorting column and direction when leaving Phonebook or closing the program.
+  10. Greek characters support improved in SMS Manager (big thanks to Antony Tsakoumis).
+  11. Options - Ringing tones: Added "Quality" and "Volume" options.
+  12. Improved "Send bug report" window supporting all MAPI-compatible mailers. Log file (opm2errors.log) is attached automatically now.
+  13. Showing detailed information about all errors during Reading/Writing all phone data.
+  14. Added Splash window when program starts.
+  15. Case-insensitive sorting of Phonebook contacts and To-Do notes.
+  16. Phonebook error fixed: sometime after adding new contact it was moved out of visible area (due to the current sorting order).
+  17. Ringing tones: Fixed bug with opening/playing ringtones under Windows XP.
+  18. FM Manager: Fixed bug with sending Favourites via e-mail.
+  19. Fixed bug: E-mail field was not imported from Lotus Notes.
+  20. Fixed bug in Backup/Restore: when there were errors during Backup or Restore process, "Show errors log" function didn't work.
+  21. To-Do List: Fixed bug with adding several notes with the same text.
+  22. Small improvements and bugfixes.
+
+Changes and bugfixes in 2.0.5:
+==============================
+  1. Added MIDI files support in Ringtones.
+  2. Logo Editor now can handle color images.
+  3. Partial Nokia 7210 support: Common parameters (battery, signal, HW/SW version), Phonebook support (no caller groups), SMS support, FM support, Partial profiles support (without ringtone and message alert tone settings), Plain ringtone upload.
+  4. New options in Phonebook section: 'Enable Unicode when editing phonebook'. If you can not enter your national symbols, try to turn this option OFF.
+  5. Phonebook export: if more than 1 contact selected, only selected contacts are exported.
+  6. Phonebook: when editing Caller Group name pressing "Esc" rollbacks all changes and sets the current Caller Group name.
+  7. Logo Editor: New tool - "Pick color".
+  8. Fixed bug with moving contacts from Phone memory to SIM card.
+  9. Fixed bug with saving and resetting group logos.
+  10. Fixed serious bug (program crash) when restoring phonebook from backup file.
+  11. Some Unicode fixes for Chinese language in Phonebook, Profiles and SMS.
+  12. Chinese SMS truncation bug is fixed.
+  13. Phonebook: Fixed Access Violation bug after deleting phone number with speed dial set on it (e.g. after removing duplicate numbers and trying to call phonebook popup menu).
+  14. The problems with entering special or national language symbols should be finally solved now.
+  15. Fixed small interface bug in Logo Editor, Logo list, To-Do and Profiles: double click on toolbar hid it.
+  16. Some speed and stability improvements.
+
+Changes and bugfixes in 2.0.4.1:
+================================
+  1. Added 'Ringtones' and 'FM Stations' items in Quick Jump menu.
+  2. Phonebook: Default names for CSV import mapping are available for translation now.
+  3. Profiles: Current profile indication/setting was unavailable in collapsed state.
+  4. Phonebook bug fixed: sometimes it was impossible to cancel editing using "Esc" key.
+  5. Phonebook bug fixed: when pressing Enter on empty phone number field and confirming the phone number input, each next Enter added new phone number instead of editing current one.
+  6. Eliminated possible errors when phone is disconnected.
+  7. Fixed some ringtones issues for 8390.
+  8. Fixed bug with delimiter processing in MS Outlook category field.
+  9. Fixed bug with truncating SIM phone numbers.
+  10. Fixed bug with speed dials removing failure.
+  11. Fixed bug with import contacts from MS Outlook to Assorted categories.
+  12. Some interface improvements in New SMS Message dialog.
+  13. Fixed bug in SMS Manager: when forwarding Unicode message, non-Unicode message was sent.
+  14. Fixed bug in SMS Manager: import SMS messages from OPM 1.x files failed when there were no custom folders.
+
+
+Changes and bugfixes in 2.0.4:
+==============================
+  1. Nokia 8910 and 8390 support.
+  2. Proxy support for "Check for update" function. See Options window, Connection & Common page.
+  3. Register/unregister phones window: registration message can be saved to text file (and further sent from another computer). It may be useful for multi-user licenses or for people who don't have Internet connection on computer where OPMII installed.
+  4. Phonebook: "Proper case" feature in popup menu. Allows one-click contact names changing to initial capitals. For example "JOHn smITH" will be changed to "John Smith".
+  5. Phonebook: "Check for dulicate phone numbers" feature in popup menu. Brings up semitransparent (under Windows 2000, XP and ME) window with the list of contacts having duplicate numbers.
+  6. Phonebook: Fixed '@' typing in e-mail field for some keyboards.
+  7. Phonebook: automatically sizing columns with double click on column header margin (like in Microsoft Excel).
+  8. Phonebook import from Microsoft Outlook and Lotus Notes: now ignored contacts category can be set regardless of the "Assorted" category mapping.
+  9. New option: "Mimimize to system tray".
+  10. Phone explorer(tm) : Fixed bug with incorrect font displaying.
+  11. Fixed bug in Profiles window: selected font was not applied to profiles' captions.
+  12. New translations: Africaans, Chinese Simplified and Portuguese.
+
+
+Changes and bugfixes in 2.0.3:
+==============================
+  1. Powerful Ringtones manager. Managing the list of your favourite ringtones, using piano keybord to enter notes, play feature and much more.
+  2. FM stations manager (for models having FM Radio). Managing several lists of favourite FM stations for specific regions (Country, City), ability to enlarge built-in FM Stations library with your favourites.
+  3. Phonebook window: "Send via SMS" menu item for Group logos.
+  4. Logos list: "Send via SMS" button.
+  5. Phonebook: when current phone number has "Mobile" type, "Send SMS" item becomes available in popup menu.
+  6. SMS Manager: Copy to clipboard feature.
+  7. SMS Manager: Export messages to HTML, Text (tab-delimited or fixed-size columns), CSV, Microsoft Excel, RTF, XML.
+  8. SMS Manager: Ability to select ringtone from Rigtones library.
+  9. Fixed some "garbage" in Phone Explorer(tm) when changing Names, switching languages ans so on.
+  10. Fixed some issues when removing phone.
+
+
+Changes and bugfixes in 2.0.2:
+==============================
+  1. Added support for Nokia 3350.
+  2. Phonebook: restoring deleted contacts automatically when changing their location to SIM or Phone memory.
+  3. Phonebook can be sorted by memory type (SIM/Phone/Disk) now. Contacts stored in the same memory sorted by Name.
+  4. After activating Network Monitor for 62**/71** models program suggests immediate Phone restart to reflect the changes.
+  5. To-Do: Bug fixed: to-do items storage were not updated after reading from phone.
+  6. Profiles: Fixed bug with reading profiles (in some cases "Error reading entry" message was displayed).
+  7. SMS Manager: Fixed bug with writing SMS Descriptions to 62**/71** models.
+  8. SMS Manager: Fixed bug with reading NewsFlash SMS.
+  9. Phonebook: Fixed bug with speed dials handling when rereading and deleting contacts.
+  10. Phonebook: Bug with deleting all contacts is fixed: contacts were not removed from Phone Explorer(tm).
+  11. LogoEditor: unable to save logo to a file bug fixed.
+  12. Phonebook import/export: mapping field names now can be translated.
+  13. Phonebook import from CSV bug fixed.
+  14. DLR-3 support is improved.
+  15. SMS Manager: SMS reception procedure is improved.
+  16. To-Do: completed tasks are omitted when importing from Outlook.
+  17. SMS Manager: New option: Save copy of sent messages in the "Sent messages" folder.
+  18. SMS Manager: Folders creation improved.
+  19. SMS Manager: Fixed bug with duplicating Inbox SMS messages if sending SMS without reading from phone.
+  20. SMS Manager: Storing NewsFlash messages.
+  21. Some stability improvements.
+  22. New language translations. Now the program supports 16 languages: English, Chinese Traditional, Czech, Danish, German, Greek, French, Croatian, Hungarian, Indonesian, Italian, Dutch, Norwegian, Russian, Serbian, Swedish.
+
+
+Changes and bugfixes in 2.0.1.1:
+================================
+  1. Added support for Nokia 3410.
+  2. Options: lead spaces in "Add phone number type suffix" fields are not removed now.
+  3. Phonebook: Alt+Del shortcut kills selected contacts without moving them to "Deleted items" folder.
+  4. Phone restart feature.
+  5. Phonebook: "Change caller group to"  menu item is now disabled for phones that don't have caller groups.
+  6. Phonebook: Added phone model to "Move to" and "Copy to" lists.
+  7. Activation and deactivation Network Monitor feature.
+  8. Phonebook bug fixed: "Write all data" function didn't work if there were no changes.
+  9. To-Do Lists: when creating new task, setting its priority according to current priority group in Phone Explorer(tm).
+  10. To-Do Lists: when creating new task, setting its default storage to Phone memory (instead of Disk).
+  11. Language files updated: not all strings from Backup and Restore wizards weere translateable.
+  12. Fixed bug with displaying "<" and ">" characters in Phone Explorer(tm) and Profiles.
+  13. Phonebook: fixed Access Violation bug when multiple creation and moving contacts to abother phone.
+  14. Phonebook: Caller group name now is saved when leaving "Name" field (Enter key is also working).
+  15. Profiles: Profile name now is saved when leaving "Name" field (Enter key is also working).
+  16. Caller groups bug fixed: "Show logo" parameter was not saved.
+  17. Showing "changed" status when caller group parameters are just modified.
+  18: Fixed bug with loading Phonebook from file containing several contacts with the same name, but different storage.
+  19. Fixed bug with incorrect profiles saving.
+  20. Fixed bug with Outlook export categories.
+  21. Fixed bug with import from "Invalid" Outlook category.
+  22. Fixed bug with saving caller group ringtones.
+  23. Bug fixed: Newsflash SMS were not sent from Nokia 8310, 6310 and 6510.
+  24. SMS Manager: Restore bug is fixed.
+  25. Added several SMS composing options: "Include message in reply", "Include prefix 'Re:' in reply", "Include prefix 'Fw:' in forward".
+  26. Added "Default SMS validity period" option.
+  27. Fixed bug with opening icnorrectly modified MCC/MNC list file.
+  28. LongWords.txt file is updated with more long words substitutions (see SMS Manager options).
+
+Changes and bugfixes in 2.0.1.0:
+================================
+  1. Added option to phone number transformation settings: now it's possible to delete specific digits from the beginning of city code.
+  2. Phonebook bug fixed: when having two or more contacts with the same name and deleting one of them, first was always deleted from Phone Explorer(tm) (ONLY from Phone Explorer!)
+  3. Possibility to select and restore multiple contacts from Deleted Items folder.
+  4. Profiles: added parameter "Auto answer" for Car and Headset profiles.
+  5. Profiles: added parameter "Light is always on" for Car profile.
+  6. Registered version only: Removed phones, if present in registration key, automatically added to "Phones to remove" list in "Register/Unregister phones" window.
+  7. Fixed Access Violation bug when fast switching between Phone Explorer(tm) nodes.
+  8. Added option "Phonebook import/export format".
+  9. Nokia 3390 support is improved.
+  10. Bug with reading phone folders fixed: "Nokia 0" phone appeared; phone was detected as new every time when it connects.
+  11. Added new language translations. Now the program supports: English, German, Dutch, Italian, Danish, Norwegian, Swedish, Hungary, Russian.
+  12. Fixed possible Access violation error when reading all phone data.
+  13. Bug with hotkeys in LogoEditor fixed.
+  14. Small improvements in SMS Manager.
+
+Changes and bugfixes in 2.0.0.9:
+================================
+  1. Serious bug fixed: not all registered phones might be handled properly.
+  2. Bug with reading 6310i profiles fixed.
+  3. Reconnect via IR fixed.
+  4. Greek characters in SMS messages can be read correctly now.
+  5. Phonebook import from/export to WAB file fixed.
+  6. Phonebook import from/export to custom Outlook folders fixed.
+  7. Profiles: ability to overwrite profile settings without reading from phone.
+  8. SMS Manager: fixed bug with duplicate pictures in Templates folder.
+  9. SMS Manager: popup menu in Folders view.
+  10. SMS Manager: Optional disk folders highlight.
+  11. Fixed bug with reading caller group ringtones for 8310/6310/6510
+  12. Fixed bug: registered versions opened trial upgrade page if there were trial version installed before.
+  13: Phonebook: Access Violation bug fixed when reading phonebook.
+  14. Reading/writing SMS messages and folders added to "Read all data"/"Write all data" menu items.
+  15. Possibility to restore SMS messages from Backup file (*.obk).
+
+
+
+Changes and bugfixes in 2.0.0.8:
+================================
+  1. Reconnection via IR bug fixed.
+  2. Register Phones dialog: e-mail validity checking bug is fixed.
+  3. SMS contacts re-reading after choosing "Read all data" menu item.
+  4. New option: Send Register/Unregister phones e-mail directly. If you're behind firewall, switch this options off.
+  5. Fixed bug with font setting in SMS Manager.
+  6. SMS Manager: Import from OPM 1.x sms files corrected.
+  7. Bug fixed: Access Violation when trying to open Capture window from LogoEditor when editing custom logo.
+
+
+Changes and bugfixes in Release 2.0:
+====================================
+  1. Nokia 6310i support.
+  2. Starting Oxygen Phone Manager with parameter - picture file - will open Logo Editor window with this picture.
+  3. File associations added for nol, nlm, ngg, ota extensions.
+  4. Phonebook: reading/writing only SIM/Phone memory feature.
+  5. Register/Unregister phone dialog in registered version.
+  6. Logo Editor: Maximum undo number and Cell size can be adjusted using Options dialog.
+  7. Incremental search added in Phonebook, To-Do List and My Phones windows.
+  8. Profiles: displaying/setting current profile.
+  9. More restore options for Phonebook: SIM card, Phone memory, Disk.
+  10. SMS Backup feature is added (Restore will e available very soon).
+  11. Checking for updates functionality. Automatic checking can be switched off in Options dialog.
+  12. Multilanguage capability. Please refer to http://www.opm-2.com to learn how to translate Oxygen Phone Manager to your native language.
+  13. Fixed bug with Startup logo sizes for 3xxx models.
+  14. Profiles design changed to speed up drawing.
+  15. Phonebook: Fixed bug with incorrect cells height (when having one phone number and several e-mail fields).
+  16. Nokia 8855 support.
+  17. Logo Editor: fixed Access Violation bug when editing custom logo.
+
+Changes and bugfixes in Beta 5:
+===============================
+  1. Bug fixed: To-Do Lists: Copy to phone/Move to phone menus no longer include the phones without To-Do List capability.
+  2. When new phone is found, Copy to phone/Move to phone menus in all windows are updated.
+  3. Profiles and ToDo List reading/writing is added when reading/writing all data to phone.
+  4. Bug fixed: cable connection was not restored again when after it was lost.
+  5. Fixed Access Violation bug in "Remove phone".
+  6. Bug fixed: incorrect profiles order (Meeting and Outdoor).
+  7. Backup all phone data feature.
+  8. Restore all phone data feature.
+  9. Save changes confirmation dialog after changing logo in Logo Editor.
+  10. All profiles window shows collapsed information by default (to speed up painting).
+  11. Fixed window flickering when reading/writing all phone data.
+  12. Disabling OPM II window while reading or writing any data to prevent duplicate reading/writing.
+  13. New option: Suggest immediate backup when new phone is connected.
+  14. Bug fixed: Memory leaks in Phonebook window.
+  15. Fixed bug with Phonebook painting when multiple nodes are selected.
+  16. SMS Manager (preview edition) is added.
+  17. Standard shortcuts (Ctrl+O for Open, Ctrl+S for Save) added to all windows.
+  18. Some stability improvements.
+  19. Displaying current MCC/MNC information in Phone Information window.
+  20. "Logos\Open file" feature allows to edit arbitrary logos and save them to phone.
+  21. Plenty of logos added to setup package.
+  22. Help file is updated.
+
+
+Changes and bugfixes in Beta 3:
+===============================
+  1. Bug fixed: Phonebook Import/Export options were not saved after clicking "Ok" button in Options dialog.
+  2. Bug fixed: Import/Export process couldn't be stopped.
+  3. Phonebook: Fixed Access violation when deleting all entries.
+  4. To-Do list support.
+  5. Phonebook: Import from CSV file.
+  6. To-Do list: Import from CSV file.
+  7. New design of Options window.
+  8. Profiles support for 6210, 6250, 6310, 6510, 7110, 7190, 8310.
+  9. New Open Picture dialog in LogoEditor.
+  10. Bug fixed: When Signal level changes while editing phonebook, program either hangs or terminates edit mode.
+  11. Bug fixed: When importing Phonebook from WAB, first entry wasn't imported.
+  12. Bug in Phonebook window was fixed: When having several phone numbers per last(first) contact, arrow key Down(Up) didn't function properly.
+  13. Small connection bugfixes.
+
+Changes and bugfixes in Beta 2:
+===============================
+
+  1. Bug fixed: Possible unreadable symbols in "Phonebook\Change" caller group popup menu.
+  2. Changing "Phone" menu image when phone is connected/disconnected.
+  3. "Phone\Read all data" item functionality added.
+  4. "Phone\Write all data" item functionality added.
+  5. Phonebook: "Mark as changed" feature in popup menu (also available on Ctrl+M).
+  6. Bug fixed: Resetting the Signal and Battery levels when phone is disconnected.
+  7. Some stability improvements.
+  8. Phonebook: Hint message shows when entering edit mode.
+  9. Bug fixed: Speed dials in some cases were not displayed in the Phone Explorer.
+  10. Bug fixed: possible incorrect caller group names in Phonebook popup menu.
+  11. Phone Infomation window: Incorrect spelling ('pnonebook') is fixed.
+  12. Windows XP compatibility is improved.
+  13. Phonebook: Disabling "read/write caller group parameters" menu items for the models without Caller groups.
+  14. Bug fixed: Logo Editor: logos were marked as Changed even if they weren't changed.
+  15. Bug fixed: When removing contacts that are already have "deleted" status, they don't deleted from the phone. Now removing of deleted contacts is prohibited.
+  16. Bug fixed: when the phonebook is re-read speed dials are not refreshed or shown.
+  17. Phonebook: Updating information after rereading caller group parameters.
+  18. Updating Phone Explorer(tm) tree after applying "Correct illegal entries" in Phonebook.
+  19. Updating heights of all views after changing display font using Tools\Font menu item.
+  20. Remove phone feature. Removes phone from the Phone Explorer (tm) and clears its data from disk.
+  21. Bug fixed: Text fields were not saved to 6210/6250/7110/7190.
+  22. Bug fixed: access violation when trying to customize toolbar in "Logos List" window.
+  23. Bug fixed: access violation when changing caller group for multiple contacts.
+  24. Bug fixed in "Options" window: When changing something, pressing "Cancel" and reopening, the recently cancelled options were displayed.
+  25. New option: Maximum contact name length for SIM card.
+  26. Fixed bug in numbers adaptation when importing from Outlook/Notes.
+  27. Bug fixed: Startup logo wasn't empty for Nokia 5110.
+  28. Bug fixed: Counting total contacts to write to phone.
+  29. Bug with writing caller group parameters to 5210 is fixed.
+  30. Bug with moving from SIM card to phone memory (and vice versa) is fixed.
+  31. Autodetecting language for 8210 (using default OS locale).
+  32. IR communication imroved.
+  33. Support for Nokia 5510.

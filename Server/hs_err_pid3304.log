@@ -1,0 +1,81 @@
+
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION (0xc0000005) occurred at PC=0x8077D2B
+Function=[Unknown.]
+Library=C:\Program Files\Java\j2re1.4.2_05\bin\client\jvm.dll
+
+NOTE: We are unable to locate the function name symbol for the error
+      just occurred. Please refer to release documentation for possible
+      reason and solutions.
+
+
+Current Java thread:
+	at sun.awt.windows.WListPeer.delItems(Native Method)
+	at sun.awt.windows.WListPeer.clear(Unknown Source)
+	at java.awt.List.clear(Unknown Source)
+	- locked <0x1052e540> (a java.awt.List)
+	at MMSServer.MMSCentral.showanssignal(MMSCentral.java:699)
+	at MMSServer.MMSCentral.run(MMSCentral.java:405)
+	at java.lang.Thread.run(Unknown Source)
+
+Dynamic libraries:
+0x00400000 - 0x0040B000 	C:\WINDOWS\system32\java.exe
+0x7C900000 - 0x7C9B0000 	C:\WINDOWS\system32\ntdll.dll
+0x7C800000 - 0x7C8F4000 	C:\WINDOWS\system32\kernel32.dll
+0x77DD0000 - 0x77E6B000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77E70000 - 0x77F01000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77C10000 - 0x77C68000 	C:\WINDOWS\system32\MSVCRT.dll
+0x08000000 - 0x08139000 	C:\Program Files\Java\j2re1.4.2_05\bin\client\jvm.dll
+0x77D40000 - 0x77DD0000 	C:\WINDOWS\system32\USER32.dll
+0x77F10000 - 0x77F56000 	C:\WINDOWS\system32\GDI32.dll
+0x76B40000 - 0x76B6D000 	C:\WINDOWS\system32\WINMM.dll
+0x10000000 - 0x10007000 	C:\Program Files\Java\j2re1.4.2_05\bin\hpi.dll
+0x00390000 - 0x0039E000 	C:\Program Files\Java\j2re1.4.2_05\bin\verify.dll
+0x003B0000 - 0x003C9000 	C:\Program Files\Java\j2re1.4.2_05\bin\java.dll
+0x003D0000 - 0x003DD000 	C:\Program Files\Java\j2re1.4.2_05\bin\zip.dll
+0x02C60000 - 0x02D72000 	C:\Program Files\Java\j2re1.4.2_05\bin\awt.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x76390000 - 0x763AD000 	C:\WINDOWS\system32\IMM32.dll
+0x774E0000 - 0x7761D000 	C:\WINDOWS\system32\ole32.dll
+0x5AD70000 - 0x5ADA8000 	C:\WINDOWS\system32\uxtheme.dll
+0x02E00000 - 0x02E51000 	C:\Program Files\Java\j2re1.4.2_05\bin\fontmanager.dll
+0x73760000 - 0x737A9000 	C:\WINDOWS\system32\ddraw.dll
+0x73BC0000 - 0x73BC6000 	C:\WINDOWS\system32\DCIMAN32.dll
+0x73940000 - 0x73A10000 	C:\WINDOWS\system32\D3DIM700.DLL
+0x74720000 - 0x7476B000 	C:\WINDOWS\system32\MSCTF.dll
+0x04190000 - 0x0419F000 	C:\Program Files\Java\j2re1.4.2_05\bin\net.dll
+0x71AB0000 - 0x71AC7000 	C:\WINDOWS\system32\WS2_32.dll
+0x71AA0000 - 0x71AA8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x71A50000 - 0x71A8F000 	C:\WINDOWS\System32\mswsock.dll
+0x76F20000 - 0x76F47000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76D60000 - 0x76D79000 	C:\WINDOWS\system32\iphlpapi.dll
+0x76FB0000 - 0x76FB8000 	C:\WINDOWS\System32\winrnr.dll
+0x76F60000 - 0x76F8C000 	C:\WINDOWS\system32\WLDAP32.dll
+0x76FC0000 - 0x76FC6000 	C:\WINDOWS\system32\rasadhlp.dll
+0x662B0000 - 0x66308000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71A90000 - 0x71A98000 	C:\WINDOWS\System32\wshtcpip.dll
+0x76C90000 - 0x76CB8000 	C:\WINDOWS\system32\imagehlp.dll
+0x59A60000 - 0x59B01000 	C:\WINDOWS\system32\DBGHELP.dll
+0x77C00000 - 0x77C08000 	C:\WINDOWS\system32\VERSION.dll
+0x76BF0000 - 0x76BFB000 	C:\WINDOWS\system32\PSAPI.DLL
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 123K [0x10010000, 0x100b0000, 0x104f0000)
+  eden space 512K,  23% used [0x10010000, 0x1002e090, 0x10090000)
+  from space 64K,   5% used [0x100a0000, 0x100a0d78, 0x100b0000)
+  to   space 64K,   0% used [0x10090000, 0x10090000, 0x100a0000)
+ tenured generation   total 1408K, used 297K [0x104f0000, 0x10650000, 0x14010000)
+   the space 1408K,  21% used [0x104f0000, 0x1053a550, 0x1053a600, 0x10650000)
+ compacting perm gen  total 4096K, used 3675K [0x14010000, 0x14410000, 0x18010000)
+   the space 4096K,  89% used [0x14010000, 0x143a6fe0, 0x143a7000, 0x14410000)
+
+Local Time = Fri Aug 13 21:30:42 2004
+Elapsed Time = 289
+#
+# HotSpot Virtual Machine Error : EXCEPTION_ACCESS_VIOLATION
+# Error ID : 4F530E43505002EF
+# Please report this error at
+# http://java.sun.com/cgi-bin/bugreport.cgi
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_05-b04 mixed mode)
+#

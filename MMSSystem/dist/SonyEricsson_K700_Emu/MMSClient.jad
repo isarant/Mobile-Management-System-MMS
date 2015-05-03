@@ -1,0 +1,8 @@
+MIDlet-1: MMSystem,,MMSClient.MMSystem
+MIDlet-Jar-Size: 151191
+MIDlet-Jar-URL: MMSClient.jar
+MIDlet-Name: MMSSystem
+MIDlet-Vendor: John Sarantopoulos
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

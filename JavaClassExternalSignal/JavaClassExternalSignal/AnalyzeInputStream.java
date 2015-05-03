@@ -1,0 +1,95 @@
+
+
+package JavaClassExternalSignal;
+
+
+public class AnalyzeInputStream
+{
+	private String[] InputString;
+	private byte Sender;
+	private String SenderStr;
+	private byte SignalType;
+	private String SignalTypeStr;
+	private int SignalCommand;
+	private String  SignalCommandStr;
+	private int Scenario;
+	private String  ScenarioStr;
+	private String StrData1,StrData2;
+	private byte[] Data1,Data2;
+	public AnalyzeInputStream(String[] InputString)
+	{
+		this.InputString=InputString;
+		if(this.InputString.length >3)
+		{
+			SenderStr=InputString[0];
+			Sender=Byte.parseByte(SenderStr);
+			SignalTypeStr=InputString[1];
+			SignalType=Byte.parseByte(SignalTypeStr);
+			SignalCommandStr=InputString[2];
+			SignalCommand=Integer.parseInt(SignalCommandStr);
+			ScenarioStr=InputString[3];
+			Scenario=Integer.parseInt(ScenarioStr);
+		}
+		if(this.InputString.length ==5)
+		{
+			StrData1=InputString[4];
+			Data1=StrData1.getBytes (); 
+			
+		}
+		if(this.InputString.length ==6)
+		{
+			StrData1=InputString[4];
+			Data1=StrData1.getBytes ();
+			StrData2=InputString[5];
+			Data2=StrData2.getBytes ();
+		}
+	}
+	public String Get_Sender_Str()
+	{
+		return SenderStr;
+	}
+	public byte Get_Sender_byte()
+	{
+		return Sender;
+	}
+	public String Get_SignalType_Str()
+	{
+		return SignalTypeStr;
+	}
+	public byte Get_SignalType_byte()
+	{
+		return SignalType;
+	}
+	public String Get_SignalCommand_Str()
+	{
+		return SignalCommandStr;
+	}
+	public int Get_SignalCommand_int()
+	{
+		return SignalCommand;
+	}
+	public String Get_Scenario_Str()
+	{
+		return ScenarioStr;
+	}
+	public int Get_Scenario_int()
+	{
+		return Scenario;
+	}
+	public String Get_Data1_Str()
+	{
+		return StrData1;
+	}
+	public byte[] Get_Data1_byte()
+	{
+		return Data1;
+	}
+	public String Get_Data2_Str()
+	{
+		return StrData2;
+	}
+	public byte[] Get_Data2_byte()
+	{
+		return Data2;
+	}
+}

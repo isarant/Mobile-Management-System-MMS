@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "ExternalSignals", "ExternalSignals.vjsproj", "{1781DC1C-006D-45AD-8AA9-B3150ABA8CDE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1781DC1C-006D-45AD-8AA9-B3150ABA8CDE}.Debug.ActiveCfg = Debug|.NET
+		{1781DC1C-006D-45AD-8AA9-B3150ABA8CDE}.Debug.Build.0 = Debug|.NET
+		{1781DC1C-006D-45AD-8AA9-B3150ABA8CDE}.Release.ActiveCfg = Release|.NET
+		{1781DC1C-006D-45AD-8AA9-B3150ABA8CDE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
